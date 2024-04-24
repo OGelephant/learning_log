@@ -1,4 +1,5 @@
 """
+写url和函数的对关系
 URL configuration for learning_log project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -16,7 +17,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from r3pgsite import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls)
+
 ]
